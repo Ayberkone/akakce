@@ -1,0 +1,60 @@
+.swiperContainer {
+  padding: 20px;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.dropRatio {
+  position: absolute;
+  right: -30px;
+  top: -20px;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+}
+
+.productContainer {
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.productImage {
+  max-width: 150px;
+  height: auto;
+}
+
+.productInfo {
+  text-align: left;
+  margin-left: 3rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productPrice {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.productTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(124 150 172); // todo ayberk --- define common variable
+}

@@ -1,0 +1,103 @@
+.productDetailContainer {
+  padding: 20px;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.productHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.productName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rating {
+  color: gold;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.badge {
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.productImageContainer {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.productImage {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+
+	@media (max-width: 767px) {
+    max-height: 250px;
+  }
+}
+
+.capacityOptions {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.capacityButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.capacityButton {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.capacityButtonSelected {
+  border: 1px solid rgb(125, 125, 125);
+}
+
+.priceAndShipping {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.freeShipping {
+  color: green;
+  font-size: 1rem;
+}
+
+.lastUpdate {
+  font-size: 0.75rem;
+  color: gray;
+  text-align: center;
+}
+
+.sellerCount {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+	margin-bottom: 1rem;
+}
